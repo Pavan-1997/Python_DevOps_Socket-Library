@@ -64,3 +64,12 @@ client_socket.send(data.encode())
 received_data = client_socket.recv(1024)
 ```
 
+### 9. **Closing a Socket**:
+
+After communication is complete, the sockets should be closed.
+
+```python
+client_socket.close()
+```
+
+
