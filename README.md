@@ -120,4 +120,4 @@ Here's how it works:
 5. It then sends a response back to the client using `client_socket.sendall(message.encode())`.
 6. Both the client and server close their respective sockets after the communication.
 
-
+Make sure to run the server code first, followed by the client code. You can adjust the address and port as needed for your specific use case.
