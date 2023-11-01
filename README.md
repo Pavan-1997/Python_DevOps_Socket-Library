@@ -37,3 +37,12 @@ Before a socket can be used for communication, it needs to be bound to a specifi
 server_address = ('localhost', 12345)
 server_socket.bind(server_address)
 ```
+
+### 6. **Listening and Accepting Connections**:
+
+For a server, it needs to start listening for incoming connections. When a client tries to connect, the server uses `accept()` to establish a connection.
+
+```python
+server_socket.listen(5)
+client_socket, client_address = server_socket.accept()
+```
