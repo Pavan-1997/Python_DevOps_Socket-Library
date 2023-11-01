@@ -68,13 +68,14 @@ received_data = client_socket.recv(1024)
 
 After communication is complete, the sockets should be closed.
 
+```python
+client_socket.close()
+```
+
 ## Client-Server COnnection using Socket Library
 
 Client-server connection using Python's `socket` library. This example demonstrates a basic TCP communication between a server and a client.
 
 
-```python
-client_socket.close()
-```
-
+ 
 
