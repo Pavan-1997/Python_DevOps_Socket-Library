@@ -54,4 +54,12 @@ For a client, it needs to connect to a server using the server's address and por
 ```python
 client_socket.connect(server_address)
 ```
+### 8. **Sending and Receiving Data**:
+
+Once a connection is established, data can be sent and received using `send()` and `recv()`.
+
+```python
+client_socket.send(data.encode())
+received_data = client_socket.recv(1024)
+```
 
