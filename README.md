@@ -46,3 +46,12 @@ For a server, it needs to start listening for incoming connections. When a clien
 server_socket.listen(5)
 client_socket, client_address = server_socket.accept()
 ```
+
+### 7. **Connecting to a Server**:
+
+For a client, it needs to connect to a server using the server's address and port.
+
+```python
+client_socket.connect(server_address)
+```
+
