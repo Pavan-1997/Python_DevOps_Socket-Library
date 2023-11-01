@@ -28,3 +28,12 @@ import socket
 # Create a socket object
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ```
+
+### 5. **Binding a Socket**:
+
+Before a socket can be used for communication, it needs to be bound to a specific address and port on the local machine.
+
+```python
+server_address = ('localhost', 12345)
+server_socket.bind(server_address)
+```
