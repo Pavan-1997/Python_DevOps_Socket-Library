@@ -113,5 +113,9 @@ server_socket.close()
 
 Here's how it works:
 
+1. The server creates a TCP/IP socket and binds it to a specific address and port.
+2. It listens for incoming connections using `server_socket.listen(1)`.
+3. When a client attempts to connect, `server_socket.accept()` accepts the incoming connection and returns a new socket (`client_socket`) and the address of the client.
+
  
 
