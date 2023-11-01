@@ -19,3 +19,12 @@ The `socket` library supports different address families. The most commonly used
 - **IPv4 (`socket.AF_INET`)**: This is used for IPv4 addresses and provides a 32-bit address space.
 
 - **IPv6 (`socket.AF_INET6`)**: This is used for IPv6 addresses which have a much larger address space.
+
+### 4. **Creating a Socket**:
+
+```python
+import socket
+
+# Create a socket object
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+```
