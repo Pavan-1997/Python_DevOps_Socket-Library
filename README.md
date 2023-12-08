@@ -1,7 +1,7 @@
 # Python_DevOps_Socket-Library     
                        
 ### 1. **Socket**:      
-    
+     
 A socket is an endpoint for communication between two machines over a network. It can be used to establish connections, send and receive data, and close connections.
 
 ### 2. **Socket Types**:
