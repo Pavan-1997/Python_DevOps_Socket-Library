@@ -4,7 +4,7 @@
       
 A socket is an endpoint for communication between two machines over a network. It can be used to establish connections, send and receive data, and close connections.
   
-### 2. **Socket Types**:
+### 2. **Socket Types**: 
 
 Python's `socket` library supports various socket types, but the two most common are:
 
